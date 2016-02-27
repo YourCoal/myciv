@@ -92,7 +92,6 @@ import com.avrgaming.civcraft.main.CivData;
 import com.avrgaming.civcraft.main.CivGlobal;
 import com.avrgaming.civcraft.main.CivLog;
 import com.avrgaming.civcraft.main.CivMessage;
-import com.avrgaming.civcraft.mobs.CommonCustomMob;
 import com.avrgaming.civcraft.object.ControlPoint;
 import com.avrgaming.civcraft.object.ProtectedBlock;
 import com.avrgaming.civcraft.object.Resident;
@@ -119,7 +118,6 @@ import com.avrgaming.civcraft.util.ItemFrameStorage;
 import com.avrgaming.civcraft.util.ItemManager;
 import com.avrgaming.civcraft.war.War;
 import com.avrgaming.civcraft.war.WarRegen;
-import com.moblib.moblib.MobLib;
 
 public class BlockListener implements Listener {
 
@@ -1333,8 +1331,6 @@ public class BlockListener implements Listener {
 				ent.remove();
 			}
 		}
-		CommonCustomMob.customMobs.remove(CommonCustomMob.entity.getUniqueID());
-		CommonCustomMob.entity.getBukkitEntity().remove();
 		
 		class AsyncTask extends CivAsyncTask {
 
@@ -1453,10 +1449,6 @@ public class BlockListener implements Listener {
 				event.setCancelled(true);
 				return;
 			}
-		}
-		
-		if (MobLib.isMobLibEntity(event.getEntity())) {
-			return;
 		}
 		
 		if (event.getEntity().getType().equals(EntityType.BAT) ||

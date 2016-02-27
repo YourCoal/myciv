@@ -90,11 +90,6 @@ public class AdminCommand extends CommandBase {
 		commands.put("mob", "Mob management commands");
 	}
 	
-	public void mob_cmd() {
-		AdminMobCommand cmd = new AdminMobCommand();	
-		cmd.onCommand(sender, null, "mob", this.stripArgs(args, 1));
-	}
-	
 	public void perk_cmd() {
 		AdminPerkCommand cmd = new AdminPerkCommand();	
 		cmd.onCommand(sender, null, "perk", this.stripArgs(args, 1));

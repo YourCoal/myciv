@@ -68,48 +68,6 @@ public class Trommel extends Structure {
 	private static final double BONUS4_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus4.diamond");
 	private static final double BONUS4_EMERALD = CivSettings.getDoubleStructure("trommel_bonus4.emerald");
 	private static final double BONUS4_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus4.hammers");
-	//XXX Level 5
-	public static final int BONUS5_MAX = CivSettings.getIntegerStructure("trommel_bonus5.max"); //100%
-	private static final double BONUS5_IRON = CivSettings.getDoubleStructure("trommel_bonus5.iron");
-	private static final double BONUS5_GOLD = CivSettings.getDoubleStructure("trommel_bonus5.gold");
-	private static final double BONUS5_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus5.diamond");
-	private static final double BONUS5_EMERALD = CivSettings.getDoubleStructure("trommel_bonus5.emerald");
-	private static final double BONUS5_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus5.hammers");
-	//XXX Level 6
-	public static final int BONUS6_MAX = CivSettings.getIntegerStructure("trommel_bonus6.max"); //100%
-	private static final double BONUS6_IRON = CivSettings.getDoubleStructure("trommel_bonus6.iron");
-	private static final double BONUS6_GOLD = CivSettings.getDoubleStructure("trommel_bonus6.gold");
-	private static final double BONUS6_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus6.diamond");
-	private static final double BONUS6_EMERALD = CivSettings.getDoubleStructure("trommel_bonus6.emerald");
-	private static final double BONUS6_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus6.hammers");
-	//XXX Level 7
-	public static final int BONUS7_MAX = CivSettings.getIntegerStructure("trommel_bonus7.max"); //100%
-	private static final double BONUS7_IRON = CivSettings.getDoubleStructure("trommel_bonus7.iron");
-	private static final double BONUS7_GOLD = CivSettings.getDoubleStructure("trommel_bonus7.gold");
-	private static final double BONUS7_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus7.diamond");
-	private static final double BONUS7_EMERALD = CivSettings.getDoubleStructure("trommel_bonus7.emerald");
-	private static final double BONUS7_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus7.hammers");
-	//XXX Level 8
-	public static final int BONUS8_MAX = CivSettings.getIntegerStructure("trommel_bonus8.max"); //100%
-	private static final double BONUS8_IRON = CivSettings.getDoubleStructure("trommel_bonus8.iron");
-	private static final double BONUS8_GOLD = CivSettings.getDoubleStructure("trommel_bonus8.gold");
-	private static final double BONUS8_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus8.diamond");
-	private static final double BONUS8_EMERALD = CivSettings.getDoubleStructure("trommel_bonus8.emerald");
-	private static final double BONUS8_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus8.hammers");
-	//XXX Level 9
-	public static final int BONUS9_MAX = CivSettings.getIntegerStructure("trommel_bonus9.max"); //100%
-	private static final double BONUS9_IRON = CivSettings.getDoubleStructure("trommel_bonus9.iron");
-	private static final double BONUS9_GOLD = CivSettings.getDoubleStructure("trommel_bonus9.gold");
-	private static final double BONUS9_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus9.diamond");
-	private static final double BONUS9_EMERALD = CivSettings.getDoubleStructure("trommel_bonus9.emerald");
-	private static final double BONUS9_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus9.hammers");
-	//XXX Level 1
-	public static final int BONUS10_MAX = CivSettings.getIntegerStructure("trommel_bonus1.max"); //100%
-	private static final double BONUS10_IRON = CivSettings.getDoubleStructure("trommel_bonus1.iron");
-	private static final double BONUS10_GOLD = CivSettings.getDoubleStructure("trommel_bonus1.gold");
-	private static final double BONUS10_DIAMOND = CivSettings.getDoubleStructure("trommel_bonus1.diamond");
-	private static final double BONUS10_EMERALD = CivSettings.getDoubleStructure("trommel_bonus1.emerald");
-	private static final double BONUS10_HAMMERS = CivSettings.getDoubleStructure("trommel_bonus1.hammers");
 	
 	
 	private static int block_level = 1;
